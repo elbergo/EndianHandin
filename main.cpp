@@ -9,7 +9,7 @@ int main () {
     string line;
     ifstream inputFile ("../bigEndianInputs.txt");
     ofstream endianOutputFile ("../littleEndianOutputs.txt");
-    ofstream midByteOutputFile ("../midByte.txt");
+    ofstream midByteOutputFile ("../midByteOutputs.txt");
     if (inputFile.is_open() && endianOutputFile.is_open())
     {
         while ( getline (inputFile,line) ) {
